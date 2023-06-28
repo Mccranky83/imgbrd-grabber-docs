@@ -10,12 +10,15 @@ permissions:
 
 jobs:
   deploy:
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v4
+      - name: Install Python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
@@ -28,6 +31,8 @@ jobs:
           restore-keys: |
             mkdocs-material-
 
-      - run: pip install mkdocs-material awesome-pages
+      - name: Install Python dependencies
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin
 
-      - run: mkdocs gh-deploy --force
+      - name: Deploy to Github Pages
+        run: mkdocs gh-deploy --force
