@@ -79,3 +79,122 @@
 	margin-bottom: 0;
 	text-decoration: underline;
 }
+
+
+
+/* General */
+
+article h2 {
+	clear: both;
+}
+
+
+
+/* Downloads */
+
+article .downloads .download {
+	float: left;
+	width: 25%;
+	text-align: center;
+	overflow: hidden;
+}
+@media screen and (max-width:60em) {
+	article .downloads .download {
+		width: 50%;
+	}
+}
+
+article .downloads .download:last-child {
+	float: none;
+}
+
+
+
+/* Sources */
+
+article .sources .source {
+	float: left;
+	width: 20%;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+@media screen and (max-width:40em) {
+	article .sources .source {
+		width: 33.333%;
+	}
+}
+
+article .sources .source:last-child {
+	float: none;
+}
+
+
+
+/* Features */
+
+article .features {
+	margin: -10px;
+}
+
+article .features .feature {
+	clear: both;
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom: 2px dotted #eee;
+}
+
+article .features .feature img {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+@media screen and (max-width:60em) {
+	article .features .feature img {
+		width: 40%;
+	}
+}
+@media screen and (max-width:40em) {
+	article .features .feature img {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+}
+
+article .features .feature:nth-of-type(2n) img {
+	float: right;
+	margin-left: 5%;
+	margin-right: 0;
+}
+@media screen and (max-width:40em) {
+	article .features .feature:nth-of-type(2n) img {
+		float: none;
+		margin-left: 0;
+	}
+}
+
+article .features .feature h3 {
+	margin-top: 0;
+}
+
+
+
+/* Flags */
+
+article .flags .flag {
+	float: left;
+	width: 20%;
+	text-align: center;
+	overflow: hidden;
+}
+@media screen and (max-width:40em) {
+	article .flags .flag {
+		width: 50%;
+	}
+}
+
+article .flags .flag:last-child {
+	float: none;
+}
