@@ -5,6 +5,7 @@ hide: [navigation, toc]
 ---
 
 
+
 Imageboard/booru downloader which can download thousands of images from multiple boorus very easily. It can either be used through its graphical user interface or command-line.
 
 Thanks to its powerful naming features, you just have to set your filename and save directory using all the tokens available, and the program will generate a filename using the image's information. With this, you can store and manage your pictures in advanced directory structures, and save image with custom filenames!
