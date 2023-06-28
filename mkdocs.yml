@@ -1,0 +1,86 @@
+site_name: Imgbrd-Grabber
+
+plugins:
+  - search
+  - awesome-pages
+
+theme:
+  name: material
+  custom_dir: docs/theme
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+  language: en
+  logo: assets/img/icon.png
+  favicon: assets/favicon.ico
+  repo_url: https://github.com/Bionus/imgbrd-grabber
+  copyright: This project is maintained by Bionus
+
+  extra:
+    generator: false
+    analytics:
+      provider: google
+      property: G-MR404DPTE5
+
+  # Custom
+  grabber:
+    subtitle: Booru browsing made easy
+    description: Very customizable imageboard/booru browser and mass downloader, with powerful filenaming features.
+
+extra_css:
+  - assets/css/style.css
+
+markdown_extensions:
+  - markdown.extensions.extra
+
+nav:
+  - Home: index.md
+  - Blog:
+    - ... | blog/*
+  - Docs:
+    - Installation:
+      - docs/install/windows.md
+      - docs/install/linux.md
+      - docs/install/macos.md
+      - docs/install/android.md
+    - Basics:
+      - docs/index.md
+      - docs/filename.md
+      - docs/search.md
+      - docs/sources.md
+      - docs/favorites.md
+      - docs/website-login.md
+      - docs/shortcuts.md
+      - docs/faq.md
+    - Commands:
+      - docs/commands/index.md
+      - docs/commands/szurubooru.md
+      - docs/commands/danbooru.md
+      - docs/commands/my-imouto.md
+      - docs/commands/gelbooru.md
+      - docs/commands/shimmie.md
+    - Sources:
+      - docs/sites/index.md
+      - docs/sites/source.md
+      - docs/sites/source-example.md
+      - docs/sites/javascript-helper.md
+      - docs/sites/source-registry.md
+    - Plugins:
+      - docs/plugins/translation.md
+      - docs/plugins/theme.md
+    - Tools:
+      - docs/tools/blacklist-fixer.md
+      - docs/tools/image-renamer.md
+      - docs/tools/tag-loader.md
+    - Advanced:
+      - docs/compilation.md
+      - docs/cli.md
+      - docs/metadata.md
+      - docs/portable-version.md
+      - docs/configuration-files.md
+      - docs/telemetry.md
+  - License: https://github.com/Bionus/imgbrd-grabber/blob/master/LICENSE
+  - Issue tracker: https://github.com/Bionus/imgbrd-grabber/issues
+  - Discord: https://discord.gg/pWnY5eW3rz

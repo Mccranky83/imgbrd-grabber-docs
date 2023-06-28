@@ -1,0 +1,81 @@
+/* Header */
+
+/*.md-header:not(.md-header--shadow) {
+	background-color: initial !important;
+	transition: background-color 400ms, transform 0ms, box-shadow 0ms;
+}
+
+.md-tabs {
+	background-color: initial !important;
+}*/
+
+
+
+/* Hero */
+
+#home-hero {
+	margin-top: -4.8rem;
+	padding-top: 4.8rem;
+	background: linear-gradient(var(--md-primary-fg-color--dark), var(--md-primary-fg-color));
+	color: white;
+	font-size: .8rem;
+	line-height: 1.6;
+}
+
+#home-hero > div {
+	padding: 4rem .8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#home-hero .logo {
+	margin-left: auto;
+}
+
+#home-hero .logo {
+	display: none;
+}
+@media screen and (min-width:60em) {
+	#home-hero .logo {
+		display: block;
+		padding-left: 2rem;
+	}
+}
+
+@media screen and (min-width:60em) {
+	#home-hero .hright {
+		max-width: 30rem;
+	}
+}
+
+#home-hero p.subtitle {
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: .4em;
+}
+
+#home-hero p.download a {
+	display: inline-block;
+	padding: 8px 42px;
+	background-color: #4a4;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+
+	@media screen and (max-width: $screen-xs-max) {
+		width: 100%;
+	}
+}
+#home-hero p.download a:hover,
+#home-hero p.download a:active {
+	text-decoration: none;
+	background-color: #6b6;
+}
+
+#home-hero p.view {
+	font-size: .6rem;
+	margin-bottom: 0;
+	text-decoration: underline;
+}
