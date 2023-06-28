@@ -13,7 +13,7 @@
 nav.md-nav label {
 	font-size: 1rem;
 	font-weight: 400 !important;
-	color: rgba(0, 0, 0, 0.87) !important;
+	color: var(--md-typeset-color) !important;
 	border-bottom: 1px dotted var(--md-accent-fg-color);
 	padding: 0 0 .1rem 0 !important;
 	margin: 0 0 .6rem 0;

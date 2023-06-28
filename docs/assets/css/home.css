@@ -141,7 +141,7 @@ article .features .feature {
 	clear: both;
 	padding: 10px 0;
 	overflow: hidden;
-	border-bottom: 2px dotted #eee;
+	border-bottom: 2px dotted var(--md-default-fg-color--lightest);
 }
 
 article .features .feature img {
