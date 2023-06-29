@@ -1,22 +1,29 @@
 site_name: Imgbrd-Grabber
+repo_url: https://github.com/Bionus/imgbrd-grabber
+copyright: This project is maintained by <a href="https://github.com/Bionus" data-label="Owner">Bionus</a>
 
 plugins:
   - search
   - awesome-pages
+  - git-revision-date-localized
 
 theme:
   name: material
   custom_dir: docs/theme
 
   features:
+    - navigation.instant
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
 
   language: en
   logo: assets/img/icon.png
   favicon: assets/favicon.ico
-  repo_url: https://github.com/Bionus/imgbrd-grabber
-  copyright: This project is maintained by Bionus
 
   palette:
     - scheme: default
@@ -32,16 +39,16 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-  extra:
-    generator: false
-    analytics:
-      provider: google
-      property: G-MR404DPTE5
-
   # Custom
   grabber:
     subtitle: Booru browsing made easy
     description: Very customizable imageboard/booru browser and mass downloader, with powerful filenaming features.
+
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-MR404DPTE5
 
 extra_css:
   - assets/css/style.css
