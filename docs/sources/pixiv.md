@@ -6,6 +6,7 @@ title: Pixiv
 ## Pixiv
 
 Whatever URL is entered when adding a site with this source, it will be overriden by:
+
 * <https://app-api.pixiv.net/> (for search / listing)
 * <https://public-api.secure.pixiv.net/> (for galleries / details)
 

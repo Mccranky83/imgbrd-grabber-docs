@@ -130,6 +130,7 @@ They're usually found in packages managers by the name `libssl-dev`.
 If you don't want to use QScintilla, edit the "gui/CMakeLists.txt" file and change the line `set(USE_QSCINTILLA 1)` into `set(USE_QSCINTILLA 0)`.
 
 Else, you can find it here: <http://www.riverbankcomputing.com/software/qscintilla/download>
+
   1. Download
   1. Open a terminal
   1. Browse to where you extracted QScintilla using the "cd" command (for example, "cd /home/Bionus/QScintilla-gpl-2.7.2").

@@ -43,6 +43,7 @@ It can be found in "Save > Tags > Category name". Change it to something else th
 In addition to being able to not overwrite existing files, Grabber stores a global MD5 list to ensure you don't download twice the same image in different locations.
 
 You can change this behavior to one of those below, in the "Save" category of the settings:
+
 * **Save**: download and save the image twice (as if it's not a duplicate)
 * **Copy**: save the image twice, but copy it from the original image to prevent an useless download
 * **Move**: move the original image to the duplicate location (useful for example if you're re-downloading an image that has changed a few tags)

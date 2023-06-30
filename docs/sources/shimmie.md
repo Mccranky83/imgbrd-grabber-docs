@@ -10,6 +10,7 @@ title: Shimmie
 <https://shimmie.shishnet.org/ext_doc/index>
 
 In addition:
+
 * `width` + `height` will be automatically converted to `size` if possible
 * Range searches (e.g. `meta:A..B`) are automatically converted to two comparisons (e.g. `meta:>=A meta:<=B`)
 * `date:` is transformed to `posted:`

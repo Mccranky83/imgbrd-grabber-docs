@@ -16,6 +16,7 @@ Only available on Windows due to the nature of those properties.
 Only available on a few extensions by default (JPG / MP4, not PNG / GIF / WEBM). If you want this to work on every extension, you should use something like [FileMeta](https://github.com/Dijji/FileMeta).
 
 Example of commonly used property names (non-exhaustive):
+
 * System.Author
 * System.Keywords
 * System.Comment
@@ -36,6 +37,7 @@ You first need to download Exiftool and put it in a place where Grabber can find
 Only available on extensions supported by Exiftool. Note that even with this name, Exiftool does not only support EXIF, but also IPTC, XMP, and ICC, as well as some others format-dependent options.
 
 Example of commonly used property names (non-exhaustive):
+
 * IPTC.Keywords
 * XMP.Creator
 

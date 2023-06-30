@@ -6,6 +6,7 @@ title: Reddit
 ## Reddit
 
 The only known working URL for this source is:
+
 * <https://www.reddit.com>
 
 ### Search syntax

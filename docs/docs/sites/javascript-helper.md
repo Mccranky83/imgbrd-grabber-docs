@@ -14,6 +14,7 @@ Some of them are simply JavaScript functions, and others are bindings to C++ cod
 ### regexMatches
 
 **Parameters:**
+
 * regex (string)
 * str (string)
 
@@ -55,6 +56,7 @@ Global match a PCRE regex in a string.
 ### parseXML
 
 **Parameters:**
+
 * str (string)
 
 **Returns:** object
@@ -110,6 +112,7 @@ Parses the string passed and return the parsed XML tree.
 ### parseHTML
 
 **Parameters:**
+
 * html (string)
 * fragment (bool) = false
 
@@ -130,6 +133,7 @@ const inner = images.map((img) => img.innerHTML());
 ### JavascriptHtmlDocument::find
 
 **Parameters:**
+
 * css (string)
 
 **Returns:** object[] (JavascriptHtmlDocument[])

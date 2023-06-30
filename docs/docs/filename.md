@@ -17,7 +17,9 @@ The most basic unique filename is:
 ```
 %md5%.%ext%
 ```
+
 Which would generate files such as:
+
 * `f7deda9c6934179779f63910d5e8d2dc.png`
 * `a75b2e6c0b9247d04ff88c0aa02bb17a.gif`
 
@@ -25,7 +27,9 @@ A more complex one could be:
 ```
 %artist%/%copyright%/%character%/%md5%.%ext%
 ```
+
 Which would generate files such as:
+
 * `namu (ratias7777)/sword art online/leafa/362333f4fb4c458577ee72919cfbe10d.png`
 * `moneti (daifuku)/touhou/flandre scarlet/0498c78f67d5545bea731d4b1051096c.jpg`
 * `moneti (daifuku)/touhou/izayoi sakuya/fe2e6eb294f33f455d43b3effcf4ec6c.jpg`
@@ -228,6 +232,7 @@ artist1 character1 tag1 tag2
 Change the casing (capitalization) of words in that list.
 
 Possible options:
+
 * `lower`: some_tag
 * `upper_first`: Some_tag
 * `upper`: Some_Tag
@@ -340,11 +345,13 @@ Example:
 You can override the date's timezone using the "timezone" option.
 
 Allowed values:
+
 * `server`: the server's time zone (default)
 * `local`: the current computer's local time zone
 * Any time zone from the IANA database (ex: "UTC", "Europe/Paris"...)
 
 You can find the list of available time zones on:
+
 * [Wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 * [The IANA website](https://www.iana.org/time-zones)
 
