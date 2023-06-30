@@ -8,11 +8,11 @@ title: MacOS
 ### Via Homebrew
 1. Install [Homebrew](https://brew.sh/)
 2. Add the Grabber tap using the command:
-    ```
+    ```bash
     brew tap Bionus/imgbrd-grabber
     ```
 3. Install the Grabber cask using the command:
-    ```
+    ```bash
     brew install imgbrd-grabber
     ```
 

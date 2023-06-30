@@ -26,7 +26,7 @@ You can find help with the "-?", "-h", or "--help" commands.
 
 ### Sources
 You can set a source using the "-s" or "--sources" parameter, followed by the list of hosts to connect, separated by spaces. For example:
-```
+```bash
 ./grabber -c -s "danbooru.donmai.us gelbooru.com"
 ```
 
@@ -184,6 +184,6 @@ Default value is "%tag\t%count\t%type"
 Note that this is long and very constraining for the server. So please don't overdo it. The software already automatically updates the tag list as they arrive. This is just if you notice that many of your searched tags are not in the list.
 
 It can take a while (250 pages of 500ko each), so you might want to turn debugging on to see the current download status.
-```
+```bash
 ./grabber -c -s "danbooru.donmai.us" -i 1000 -m 250000 --tags-format "%tag" --tags-min 10 --return-pure-tags > tags.txt
 ```

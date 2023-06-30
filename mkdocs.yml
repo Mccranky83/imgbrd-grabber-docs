@@ -20,6 +20,7 @@ theme:
     - search.highlight
     - content.action.edit
     - content.action.view
+    - content.code.copy
 
   language: en
   logo: assets/img/icon.png

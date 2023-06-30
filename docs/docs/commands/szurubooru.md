@@ -51,7 +51,7 @@ Download the [szurubooru.js](szurubooru.js) file into Grabber's installation fol
 ### Install NodeJS global packages
 
 This script uses the NodeJS "axios" and "form-data" plugins, so you can install them with:
-```
+```bash
 npm install -g axios form-data
 ```
 
@@ -61,7 +61,7 @@ C:\Users\%USERNAME%\AppData\Roaming\npm\node_modules
 ```
 
 But you can check the exact path with:
-```
+```bash
 npm root -g
 ```
 
@@ -69,7 +69,7 @@ npm root -g
 ### Configuration
 
 Open Grabber, then go to "Options > Commands", and set the "Image" field to:
-```
+```bash
 node szurubooru.js "YOUR_USERNAME" "YOUR_TOKEN" "%all:includenamespace,unsafe,underscores%" "%rating%" "%source:raw%" "%path:nobackslash%"
 ```
 

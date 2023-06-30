@@ -121,7 +121,7 @@ Parses the string passed and return a parsed HTML node object.
 Set `fragment` to true if the HTML to parse is not a whole HTML document but only a part of it.
 
 #### Example
-```ts
+```typescript
 const parsed = Grabber.parseHTML(src);
 const images = parsed.find("#images-list img");
 const inner = images.map((img) => img.innerHTML());

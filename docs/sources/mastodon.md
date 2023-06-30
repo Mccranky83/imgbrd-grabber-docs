@@ -19,7 +19,7 @@ title: Mastodon
 
 You need an OAuth app to login. To do so, you need to have cURL (or equivalent) installed, and run this command:
 
-```
+```bash
 curl -X POST -F "client_name=Grabber" -F "redirect_uris=http://127.0.0.1/" https://pawoo.net/api/v1/apps
 ```
 
