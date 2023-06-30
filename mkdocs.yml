@@ -73,7 +73,8 @@ nav:
       - docs/index.md
       - docs/filename.md
       - docs/search.md
-      - ... | sources/*
+      - Sources:
+        - ... | flat | docs/sources/*
       - docs/favorites.md
       - docs/website-login.md
       - docs/shortcuts.md
