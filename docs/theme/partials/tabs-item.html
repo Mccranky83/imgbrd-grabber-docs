@@ -39,9 +39,10 @@
 
   <!-- Render item -->
   {% else %}
+    {% set nav_item_url = nav_item.url[:-10] if nav_item.url and nav_item.url.endswith("index.html") else nav_item.url %}
     {% set external_link = nav_item.url and nav_item.url.startswith("http") %}
     <li class="md-tabs__item">
-      <a href="{{ nav_item.url | url }}" class="{{ class }}"{% if external_link %} target="_blank"{% endif %}>
+      <a href="{{ nav_item_url | url }}" class="{{ class }}"{% if external_link %} target="_blank"{% endif %}>
         {{ title }}
       </a>
     </li>
@@ -49,9 +50,10 @@
 
 <!-- Main navigation item -->
 {% else %}
+  {% set nav_item_url = nav_item.url[:-10] if nav_item.url and nav_item.url.endswith("index.html") else nav_item.url %}
   {% set external_link = nav_item.url and nav_item.url.startswith("http") %}
   <li class="md-tabs__item">
-    <a href="{{ nav_item.url | url }}" class="{{ class }}"{% if external_link %} target="_blank"{% endif %}>
+    <a href="{{ nav_item_url | url }}" class="{{ class }}"{% if external_link %} target="_blank"{% endif %}>
       {{ nav_item.title }}
     </a>
   </li>
