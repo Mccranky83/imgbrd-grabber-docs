@@ -24,4 +24,6 @@ title: MacOS
 5. Eject and remove the `.dmg` file
 5. Launch Grabber via Launchpad
 
-⚠️ Grabber is not a verified Apple application, so you might get a "the developer cannot be verified" error. In that case, you should open Finder, go to your `Applications` directory, then right click `Grabber.app` then choose "Open". Then, you'll be able to choose "Open" to start Grabber anyway. You only need to do this once. More information [here](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).
+!!! warning
+
+    Grabber is not a verified Apple application, so you might get a "the developer cannot be verified" error. In that case, you should open Finder, go to your `Applications` directory, then right click `Grabber.app` then choose "Open". Then, you'll be able to choose "Open" to start Grabber anyway. You only need to do this once. More information [here](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).

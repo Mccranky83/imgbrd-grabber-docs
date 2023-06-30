@@ -7,12 +7,17 @@ title: Sources
 
 If your site is not based on Danbooru, Gelbooru, Shimmie, or another already-included source file, it gets more complicated to add it.
 
-**⚠️ You must have knowledge of JavaScript to make your own JavaScript source ⚠️**
+!!! warning
 
-**⚠️ Note that all examples below are using TypeScript⚠️**
+    You must have knowledge of JavaScript to make your own JavaScript source.
 
+!!! note
 
-_ℹ️ Note that all types described in here are documented in depth in [types.d.ts](https://github.com/Bionus/imgbrd-grabber/blob/develop/src/sites/types.d.ts). Make sure to check it out if you're confused about the usage of a given type._
+    All examples below are using TypeScript.
+
+!!! note
+
+    All types described in here are documented in depth in [types.d.ts](https://github.com/Bionus/imgbrd-grabber/blob/develop/src/sites/types.d.ts). Make sure to check it out if you're confused about the usage of a given type.
 
 This page is more about providing actual examples and explaining the flow of creating a source in a more "natural" way, rather than being an exhaustive documentation on types.
 

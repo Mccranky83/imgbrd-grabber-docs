@@ -12,7 +12,9 @@ permalink: /docs/sites/
 4. Fill the Url field, and leave the "Guess" checkbox checked
 5. If an error occurs, uncheck "Guess", and choose a source type manually in the list
 
-**⚠️ If Shimmie-based boards are currently supported, a lot of them are still buggy, so beware when using them**
+!!! warning
+
+    If Shimmie-based boards are currently supported, a lot of them are still buggy, so beware when using them
 
 
 ## Create a new source type

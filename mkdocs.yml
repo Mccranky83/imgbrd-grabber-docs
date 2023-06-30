@@ -55,6 +55,9 @@ extra_css:
 
 markdown_extensions:
   - markdown.extensions.extra
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - Home: index.md

@@ -11,7 +11,9 @@ In order to better understand the usage Grabber's users do of the program, there
 It helps understand which direction to take for the program.
 
 ### What is sent and why
-:warning: Note that everything is anonymous, and that what you search/download/etc. is never sent.
+!!! note
+
+    Everything is anonymous, and that what you search/download/etc. is never sent.
 
 #### Screen resolution
 To help improve the UI and know how many elements can/should be present on the screen at the same time.

@@ -3,7 +3,9 @@ title: Keyboard shortcuts
 ---
 
 
-_Note: shortcuts marked with `*` might change depending on your platform._
+!!! note
+
+    Shortcuts marked with `*` might change depending on your platform.
 
 ## Mnemonics
 

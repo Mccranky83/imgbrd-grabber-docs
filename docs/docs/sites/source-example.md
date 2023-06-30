@@ -5,7 +5,9 @@ title: Source example
 
 ## Introduction
 
-**⚠️ It is strongly recommended to have read the [Source](source.md) docs first and to have [types.d.ts](https://github.com/Bionus/imgbrd-grabber/blob/develop/src/sites/types.d.ts) open. ⚠️**
+!!! warning
+
+    It is strongly recommended to have read the [Source](source.md) docs first and to have [types.d.ts](https://github.com/Bionus/imgbrd-grabber/blob/develop/src/sites/types.d.ts) open.
 
 The goal of this page is to provide a step-by-step example on how to create a new source, in this case Danbooru.
 
@@ -18,7 +20,9 @@ Then, download Grabber source code somewhere, either via git or via Github "down
 
 Once done, run `npm install` in the "src/sites/" directory to install the dependencies. Then, you can build all sources with `npm run build`. You can also run the linter to check for invalid coding style issues with `npm run check`.
 
-VS Code is the recommended light IDE for editing sources, but any other can do the trick.
+!!! note
+
+    VS Code is the recommended light IDE for editing sources, but any other can do the trick.
 
 
 ## Structure

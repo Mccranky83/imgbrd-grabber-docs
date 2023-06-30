@@ -12,7 +12,9 @@ _Thanks a lot to NobodX for his help with the commands system and Gelbooru._
 
 First of all, know that using commands can slow down huge batch downloads (a recent computer may need from 100ms to 1s more per image, which is very consequent).
 
-_Note: in this wiki, I'll consider that you're using Windows. But on Linux & other OSes, it should be pretty much the same (use the cp command instead of copy, LAMP (linux) / MAMP (mac) instead of WAMP, etc.)._
+!!! note
+
+    In this wiki, I'll consider that you're using Windows. But on Linux & other OSes, it should be pretty much the same (use the cp command instead of copy, LAMP (linux) / MAMP (mac) instead of WAMP, etc.).
 
 
 
@@ -81,7 +83,10 @@ Launch Grabber, then open the options window and go to the "Commands" part. Set 
 ```powershell
 C:\Windows\System32\cmd.exe /C copy "%path%" "C:\wamp\www\gelbooru\images\1\%md5%.%ext%"
 ```
-_Note: be careful to put the **blank character** (ALT+255) between "cmd.exe" and "/C". Otherwise, the two string were stuck, and the command is not recognized (at least in version 5.4.2 of Grabber)._
+
+!!! note
+
+    Be careful to put the **blank character** (ALT+255) between "cmd.exe" and "/C". Otherwise, the two string were stuck, and the command is not recognized (at least in version 5.4.2 of Grabber).
 
 And, in the Database part:
 

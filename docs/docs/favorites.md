@@ -59,6 +59,8 @@ To automatically download any new favorites, please follow the below steps:
 3. Go to the "Monitors" tab
 4. Select the source to pull updated files from as well as an interval in minutes
 
-*Note: you can change the Path and Filename fields if needed, leaving blank will use your default path and filename.*
+!!! note
+
+    You can change the Path and Filename fields if needed, leaving blank will use your default path and filename.
 
 !["Monitors" tab of the "Edit a favorite" window](img/favorite-monitors.png)

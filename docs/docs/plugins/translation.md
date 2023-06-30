@@ -7,7 +7,9 @@ title: Translations
 
 If your language is not available for the program, or not up-to-date, you can add or edit it pretty easily. The goal of this page is to tell you how to do this.
 
-**⚠️ Please only send translations for official use if you're native or bilingual in that language ⚠️**
+!!! warning
+
+    Please only send translations for official use if you're native or bilingual in that language
 
 
 ## Using Crowdin
@@ -63,7 +65,9 @@ Note that even if you don't use Qt Linguist, you'll need `lrelease` in order to 
 
 ### Translating
 
-*Note: if you understand another language (such as French) as well or better than English, you can also open it: it will then show both French and English versions when asking you for a translation.*
+!!! note
+
+    If you understand another language (such as French) as well or better than English, you can also open it: it will then show both French and English versions when asking you for a translation.
 
 Now that you're ready, all that's left is to actually get translating!
 

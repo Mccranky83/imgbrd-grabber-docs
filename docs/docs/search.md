@@ -22,7 +22,9 @@ Sometimes, a source does not allow you to use a given syntax, or limits the numb
 
 In this case, the best solution is to use a post-filter, which loads the results from the source using your search, then filter them with another search.
 
-**⚠️ If your post-filter is too specific, all images might get filtered and Grabber will show zero results! ⚠️**
+!!! warning
+
+    If your post-filter is too specific, all images might get filtered and Grabber will show zero results!
 
 ### Syntax
 Post-filtering uses the most popular search syntax in boorus, which is:

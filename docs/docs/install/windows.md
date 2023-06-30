@@ -11,7 +11,9 @@ title: Windows
 3. Launch the installer and follow the steps
 4. If you haven't left the "start Grabber" checked at the end of the installation, go to the installation folder then launch `Grabber.exe` (or use the shortcut created on the desktop during the installation).
 
-ℹ️ By default, the program will be installed to `C:/Program Files/Grabber` and your settings will be stored in `%LocalAppData%/Bionus/Grabber`
+!!! info
+
+    By default, the program will be installed to `C:/Program Files/Grabber` and your settings will be stored in `%LocalAppData%/Bionus/Grabber`
 
 ### Via the portable version
 1. Go to the latest release [here](https://github.com/Bionus/imgbrd-grabber/releases/latest)

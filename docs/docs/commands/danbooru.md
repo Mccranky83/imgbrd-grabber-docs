@@ -5,7 +5,9 @@ title: Danbooru
 
 
 
-**⚠️ Using commands can slow down huge batch downloads (a recent computer may need from 100ms to 1s more per image) ⚠️**
+!!! warning
+
+    Using commands can slow down huge batch downloads (a recent computer may need from 100ms to 1s more per image)
 
 
 

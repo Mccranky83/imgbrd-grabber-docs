@@ -5,7 +5,9 @@ title: Szurubooru
 
 
 
-**⚠️ Using commands can slow down huge batch downloads (a recent computer may need from 100ms to 1s more per image) ⚠️**
+!!! warning
+
+    Using commands can slow down huge batch downloads (a recent computer may need from 100ms to 1s more per image)
 
 
 
@@ -41,7 +43,9 @@ You can download it from [their website](https://nodejs.org/en/download/), or fr
 
 Download the [szurubooru.js](szurubooru.js) file into Grabber's installation folder.
 
-ℹ️ If your Szurubooru instance is not on the same machine as Grabber, or simply not accessible at `http://localhost:8080/`, make sure to update the URL in the script.
+!!! info
+
+    If your Szurubooru instance is not on the same machine as Grabber, or simply not accessible at `http://localhost:8080/`, make sure to update the URL in the script.
 
 
 ### Install NodeJS global packages

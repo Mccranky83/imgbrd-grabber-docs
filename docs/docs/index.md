@@ -28,8 +28,10 @@ There are four fields to fill:
 
 Once finished, you can press the "Ok" button.
 
-*Note: if you have ignored the window that opened at first launch, you can set these settings in "Edit > Options".
-Then, go the the "Save" part. Set the "Folder" and the "Filename" fields (it is in a subpart of the "Save" part, you may need to expand it).*
+!!! note
+
+    If you have ignored the window that opened at first launch, you can set these settings in "Edit > Options".
+    Then, go the the "Save" part. Set the "Folder" and the "Filename" fields (it is in a subpart of the "Save" part, you may need to expand it).
 
 You should now be seeing something like this:
 
