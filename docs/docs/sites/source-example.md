@@ -5,11 +5,11 @@ title: Source example
 
 ## Introduction
 
+The goal of this page is to provide a step-by-step example on how to create a new source, in this case Danbooru.
+
 !!! warning
 
     It is strongly recommended to have read the [Source](source.md) docs first and to have [types.d.ts](https://github.com/Bionus/imgbrd-grabber/blob/develop/src/sites/types.d.ts) open.
-
-The goal of this page is to provide a step-by-step example on how to create a new source, in this case Danbooru.
 
 
 ### TypeScript development environment
@@ -320,7 +320,7 @@ export const source: ISource = {
 ```
 
 
-### Tag format
+### Search format
 
 This describes how the searches are built on the source, described by the `SearchFormat` type. For Danbooru, basic searches look quite simple: just separate tags by spaces.
 
