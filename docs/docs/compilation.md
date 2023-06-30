@@ -119,7 +119,7 @@ sudo dnf install -y "gcc-c++" "cmake" "make" --best
 #### NodeJS
 Usually found in packages managers by the name `node` or `nodejs`. You can refer to the official docs:
 
-https://nodejs.org/en/download/package-manager/
+<https://nodejs.org/en/download/package-manager/>
 
 #### OpenSSL
 If you want to access HTTPS websites, you'll need the OpenSSL libraries.

@@ -14,7 +14,7 @@ First of all, know that using commands can slow down huge batch downloads (a rec
 
 Please follow the instructions on MyImouto's wiki to install everything:
 
-https://github.com/myimouto/myimouto/wiki/How-to-install
+<https://github.com/myimouto/myimouto/wiki/How-to-install>
 
 
 
