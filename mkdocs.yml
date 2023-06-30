@@ -12,7 +12,6 @@ theme:
   custom_dir: docs/theme
 
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.top
