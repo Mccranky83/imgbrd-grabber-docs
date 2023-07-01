@@ -16,37 +16,24 @@
 #home-hero {
 	margin-top: -4.8rem;
 	padding-top: 4.8rem;
-	background: linear-gradient(var(--md-primary-fg-color--dark), var(--md-primary-fg-color));
+	background: var(--md-primary-fg-color--dark);
 	color: white;
 	font-size: .8rem;
 	line-height: 1.6;
+	text-align: center;
 }
 
-#home-hero > div {
-	padding: 4rem .8rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+#home-hero .hright {
+	padding: 3rem .8rem 2rem .8rem;
 }
 
-#home-hero .logo {
-	margin-left: auto;
+#home-hero .image {
+	padding: 0 .8rem;
+	background: linear-gradient(var(--md-primary-fg-color--dark) 0%, var(--md-primary-fg-color) 50%, white 50%);
 }
 
-#home-hero .logo {
-	display: none;
-}
-@media screen and (min-width:60em) {
-	#home-hero .logo {
-		display: block;
-		padding-left: 2rem;
-	}
-}
-
-@media screen and (min-width:60em) {
-	#home-hero .hright {
-		max-width: 30rem;
-	}
+#home-hero .image img {
+	max-width: 100%;
 }
 
 #home-hero p.subtitle {
@@ -83,6 +70,11 @@
 
 
 /* General */
+
+article h1:first-child
+article, h2:first-child {
+	margin-top: 0;
+}
 
 article h2 {
 	clear: both;

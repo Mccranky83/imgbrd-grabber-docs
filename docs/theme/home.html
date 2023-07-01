@@ -27,25 +27,25 @@
     {{ super() }}
 
     <div id="home-hero">
-        <div class="md-grid">
-            <div class="hright">
-                {% if config.theme.grabber.subtitle %}
-                    <p class="subtitle">{{ config.theme.grabber.subtitle }}</p>
-                {% endif %}
-                <p class="description">{{ config.theme.grabber.description }}</p>
+        <div class="hright">
+            {% if config.theme.grabber.subtitle %}
+                <p class="subtitle">{{ config.theme.grabber.subtitle }}</p>
+            {% endif %}
+            <p class="description">{{ config.theme.grabber.description }}</p>
 
-                <p class="download"><a href="{{ config.repo_url }}/releases/latest" data-label="Download" class="md-button">
-                    Free download - {{ site.github.latest_release.name }}
-                </a></p>
+            <p class="download"><a href="{{ config.repo_url }}/releases/latest" data-label="Download" class="md-button">
+                Free download - {{ site.github.latest_release.name }}
+            </a></p>
 
-                <p class="view"><a href="{{ config.repo_url }}" data-label="GitHub project">
-                    View the Project on GitHub
-                </a></p>
-            </div>
+            <!--p class="view"><a href="{{ config.repo_url }}" data-label="GitHub project">
+                View the Project on GitHub
+            </a></p-->
+        </div>
 
-            <div class="logo">
-                <img src="{{ 'assets/img/screenshots/search-basic-thumb.png' | url }}" alt="logo" />
-            </div>
+        <div class="image">
+            <a href="{{ 'assets/img/screenshots/search-basic.png' | url }}">
+                <img src="{{ 'assets/img/screenshots/search-basic.png' | url }}" class="glightbox" data-gallery="hero" alt="" />
+            </a>
         </div>
     </div>
 {% endblock %}
