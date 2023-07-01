@@ -98,9 +98,9 @@ Grabber works on Windows, Mac, and Linux.
 
 ## Sources
 
-<div class="sources" markdown="1">
-<i>Note that those are only a few sources present by default, but you can add as many as you want very easily!</i>
+_Note that those are only a few sources present by default, but you can add as many as you want very easily!_
 
+<div class="sources" markdown="1">
 <div class="source" markdown="1">
 
 ![Danbooru](assets/img/sources/danbooru.png)
