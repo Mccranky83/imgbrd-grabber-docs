@@ -23,25 +23,25 @@ Grabber works on Windows, Mac, and Linux.
 ![Windows](assets/img/downloads/windows.png)
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '_x64.exe' %}
+{% if '_x64.exe' in asset.name %}
 [Windows (x64)]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '_x86.exe' %}
+{% if '_x86.exe' in asset.name %}
 [Windows (x86)]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '_x64.zip' %}
+{% if '_x64.zip' in asset.name %}
 [Windows (x64, zip)]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '_x86.zip' %}
+{% if '_x86.zip' in asset.name %}
 [Windows (x86, zip)]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
@@ -52,15 +52,13 @@ Grabber works on Windows, Mac, and Linux.
 ![Linux](assets/img/downloads/linux.png)
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '.AppImage' %}
-{% unless asset.name contains '.AppImage.zsync' %}
+{% if '.AppImage' in asset.name and '.AppImage.zsync' not in asset.name %}
 [Linux (AppImage)]({{ asset.browser_download_url }})
-{% endunless %}
 {% endif %}
 {% endfor %}
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '.tar.gz' %}
+{% if '.tar.gz' in asset.name %}
 [Linux (tar.gz)]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
@@ -77,7 +75,7 @@ Grabber works on Windows, Mac, and Linux.
 [MacOS (homebrew)](docs/install/macos.md#via-homebrew)
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '.dmg' %}
+{% if '.dmg' in asset.name %}
 [MacOS (dmg)]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
@@ -88,7 +86,7 @@ Grabber works on Windows, Mac, and Linux.
 ![MacOS](assets/img/downloads/android.png)
 
 {% for asset in site.github.latest_release.assets %}
-{% if asset.name contains '.apk' %}
+{% if '.apk' in asset.name %}
 [Android]({{ asset.browser_download_url }})
 {% endif %}
 {% endfor %}
