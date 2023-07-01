@@ -58,6 +58,9 @@ extra:
   analytics:
     provider: google
     property: G-MR404DPTE5
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Bionus
 
 extra_css:
   - assets/css/style.css
