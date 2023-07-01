@@ -71,6 +71,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - toc:
+      permalink: '¶'
 
 nav:
   - Home: index.md
