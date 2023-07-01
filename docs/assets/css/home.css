@@ -16,7 +16,6 @@
 #home-hero {
 	margin-top: -4.8rem;
 	padding-top: 4.8rem;
-	background: var(--md-primary-fg-color--dark);
 	color: white;
 	font-size: .8rem;
 	line-height: 1.6;
@@ -24,12 +23,13 @@
 }
 
 #home-hero .hright {
+	background: var(--md-primary-fg-color--dark);
 	padding: 3rem .8rem 2rem .8rem;
 }
 
 #home-hero .image {
 	padding: 0 .8rem;
-	background: linear-gradient(var(--md-primary-fg-color--dark) 0%, var(--md-primary-fg-color) 50%, white 50%);
+	background: linear-gradient(var(--md-primary-fg-color--dark) 0%, var(--md-primary-fg-color) 50%, transparent 50%);
 }
 
 #home-hero .image img {
