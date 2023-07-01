@@ -149,7 +149,7 @@ article .sources .source img {
 /* Features */
 
 article .features {
-	margin: -10px;
+	margin: -10px 0;
 }
 
 article .features .feature {
