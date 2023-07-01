@@ -14,12 +14,12 @@ Tired of waiting for the next update? Want to get the latest developer version? 
 
 Bullets with '`*`' are mandatory, other are optional. Note that the compiler used for official builds is Visual Studio 2019. You can use MinGW or a more recent version of MSVC if it works for you. However know that this is the one used to push releases and updates.
 
-  * `*`Qt 5.14 or higher (MSVC 2019)
-  * `*`Visual Studio 2019 C++ compiler
-  * `*`CMake 2.8.12 or above
-  * `*`NodeJS (for building images sources)
-  * QScintilla2 (for syntax highlighting in JavaScript filename window)
-  * Google Breakpad (to handle crash and show a nice-looking crash window and backup traces)
+* `*`Qt 5.14 or higher (MSVC 2019)
+* `*`Visual Studio 2019 C++ compiler
+* `*`CMake 2.8.12 or above
+* `*`NodeJS (for building images sources)
+* QScintilla2 (for syntax highlighting in JavaScript filename window)
+* Google Breakpad (to handle crash and show a nice-looking crash window and backup traces)
 
 ### Instructions
 
@@ -44,15 +44,15 @@ If you don't want to use QScintilla, edit the "gui/CMakeLists.txt" file and chan
 
 Else, you can find it here: <http://www.riverbankcomputing.com/software/qscintilla/download>
 
-  1. Download
-  1. Open the Qt command prompt (you can find it in the start menu)
-  1. Add Visual Studio compiler to the path by typing "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" (with quotes, else it will give you an error message on "C:\Program") in the prompt
-  1. Browse to where you extracted QScintilla using the "cd" command (for example, "cd C:\Users\Bionus\Desktop\QScintilla-gpl-2.7.2"). If it's on another hard drive, use the "cd /D" command
-  1. Type "cd Qt4Qt5" (without quotes)
-  1. Type "qmake qscintilla.pro" (without quotes)
-  1. Type "nmake" (without quotes)
-  1. Type "nmake install" (without quotes)
-  1. The dlls should now have been installed and the headers added to Qt
+1. Download
+1. Open the Qt command prompt (you can find it in the start menu)
+1. Add Visual Studio compiler to the path by typing "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" (with quotes, else it will give you an error message on "C:\Program") in the prompt
+1. Browse to where you extracted QScintilla using the "cd" command (for example, "cd C:\Users\Bionus\Desktop\QScintilla-gpl-2.7.2"). If it's on another hard drive, use the "cd /D" command
+1. Type "cd Qt4Qt5" (without quotes)
+1. Type "qmake qscintilla.pro" (without quotes)
+1. Type "nmake" (without quotes)
+1. Type "nmake install" (without quotes)
+1. The dlls should now have been installed and the headers added to Qt
 
 #### Google Breakpad
 If you don't want to use Google Breakpad, edit the "gui/CMakeLists.txt" file and change the line `set(USE_BREAKPAD 1)` into `set(USE_BREAKPAD 0)`.
@@ -70,13 +70,13 @@ Shortcut: just run `./build.sh` at the root of the repository, and it will build
 
 Bullets with '`*`' are mandatory, other are optional.
 
-  * `*`Qt 5.14 or higher
-  * `*`g++
-  * `*`CMake 2.8.12 or above
-  * `*`NodeJS (for building images sources)
-  * OpenSSL (for HTTPS websites)
-  * QScintilla2 (for syntax highlighting in JavaScript filename window)
-  * Google Breakpad (to handle crash and show a nice-looking crash window and backup traces)
+* `*`Qt 5.14 or higher
+* `*`g++
+* `*`CMake 2.8.12 or above
+* `*`NodeJS (for building images sources)
+* OpenSSL (for HTTPS websites)
+* QScintilla2 (for syntax highlighting in JavaScript filename window)
+* Google Breakpad (to handle crash and show a nice-looking crash window and backup traces)
 
 ### Instructions
 
@@ -131,22 +131,22 @@ If you don't want to use QScintilla, edit the "gui/CMakeLists.txt" file and chan
 
 Else, you can find it here: <http://www.riverbankcomputing.com/software/qscintilla/download>
 
-  1. Download
-  1. Open a terminal
-  1. Browse to where you extracted QScintilla using the "cd" command (for example, "cd /home/Bionus/QScintilla-gpl-2.7.2").
-  1. Type "cd Qt4Qt5" (without quotes)
-  1. Type "qmake qscintilla.pro" (without quotes)
-  1. Type "make" (without quotes)
-  1. Type "make install" (without quotes)
-  1. The shared libraries should now have been installed and the headers added to Qt
+1. Download
+1. Open a terminal
+1. Browse to where you extracted QScintilla using the "cd" command (for example, "cd /home/Bionus/QScintilla-gpl-2.7.2").
+1. Type "cd Qt4Qt5" (without quotes)
+1. Type "qmake qscintilla.pro" (without quotes)
+1. Type "make" (without quotes)
+1. Type "make install" (without quotes)
+1. The shared libraries should now have been installed and the headers added to Qt
 
 #### Google Breakpad
 If you don't want to use Google Breakpad, edit the "gui/CMakeLists.txt" file and change the line `set(USE_BREAKPAD 1)` into `set(USE_BREAKPAD 0)`.
 
 If you want to use it, I won't explain here how to configure it to work with Qt, as it's a pretty complicated task.
 
-  1. Open "gui/CMakeLists.txt"
-  1. Edit the `set(BREAKPAD "D:/bin/google-breakpad")` line to match where you cloned Google Breakpad
+1. Open "gui/CMakeLists.txt"
+1. Edit the `set(BREAKPAD "D:/bin/google-breakpad")` line to match where you cloned Google Breakpad
 
 #### Building
 ```bash

@@ -29,6 +29,7 @@ To have a tutorial following the step-by-step creation of a real source as an ex
 Sources can be found in your settings folder. On Windows, by default, it is `C:\Users\%USERNAME%\AppData\Local\Bionus\Grabber\sites`.
 
 A source is defined by a folder containing three files:
+
 * `icon.png`: a PNG icon, usually the favicon of the source (recommended size: 16x16, it will be resized if larger)
 * `model.js`: the JS script that decides which URLs to load and how to parse the results into images (usually compiled from a `model.ts` TypeScript file)
 * `supported.txt`: the list of supported  sites based on this source, separated by a new line
@@ -40,6 +41,7 @@ A source is defined by a folder containing three files:
 The JS environment used by Grabber is not fully fledged. Therefore, there is an helper to help do a few things that are not easily possible otherwise: [JavaScript model helper](javascript-helper.md).
 
 Also, note that you can use the `console` commands as in JavaScript to generate logs in Grabber's console. Supported methods:
+
 * `console.debug` (debug level, not shown by default)
 * `console.info` (info level)
 * `console.log` (info level)
@@ -99,6 +101,7 @@ function(query) {
 ### Search "parse" function
 
 **Parameters:**
+
 * src (`string`)
 
 **Returns:** `{ images: {}[], tags?: { id?: number, name: string, count?: number, type?: string, typeId?: number }[], error?: string }`
@@ -106,10 +109,12 @@ function(query) {
 ### Tags "url" function
 
 **Parameters:**
+
 * query (`{ search: string, page: number }`)
 * opts (`{ limit: number, auth: {} }`)
 
 **Returns:** (either)
+
 * `string`: an URL
 * `{ url: string, headers?: { [key: string]: string }`: an URL and headers
 * `{ error?: string }`: an error
@@ -127,6 +132,7 @@ function(query, opts) {
 ### Tags "parse" function
 
 **Parameters:**
+
 * src (`string`)
 
 **Returns:** `{ tags?: { id?: number, name: string, count?: number, type?: string, typeId?: number }[], error?: string }`
@@ -198,11 +204,12 @@ The credentials are sent to a given URL on the website to login before doing any
 
 ## Tag format
 A tag format is defined by two fields:
+
 * `case`: the word casing:
-  * `lower`: some tag
-  * `upper_first`: Some tag
-  * `upper`: Some Tag
-  * `caps`: SOME TAG
+    * `lower`: some tag
+    * `upper_first`: Some tag
+    * `upper`: Some Tag
+    * `caps`: SOME TAG
 * `wordSeparator`: the separator to add between each word
 
 #### Example
@@ -216,10 +223,12 @@ Will have tags looking like "some_tag".
 
 ## Search format
 A search format must define at least a `and` operator. An operator is either:
+
 * A string such as ` && `
 * An object of type `{ separator: string, prefix?: string }`, where the separator is what should be added between both operands, and the prefix what should be added before each operand
 
 If the search also support the OR operator, you must then define `or`, `parenthesis`, and `precedence`:
+
 * `or`: same as `and`, either a string or an object
 * `parenthesis`: a boolean to say whether this source supports parenthesis
 * `precedence`: which operator has precedence over the other, either `or` or `and`
