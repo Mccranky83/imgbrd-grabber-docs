@@ -8,6 +8,11 @@ plugins:
   - awesome-pages
   - git-revision-date-localized
   - glightbox
+  - macros:
+      module_name: docs/theme/hooks/github_metadata
+
+hooks:
+  - docs/theme/hooks/github_metadata.py
 
 theme:
   name: material

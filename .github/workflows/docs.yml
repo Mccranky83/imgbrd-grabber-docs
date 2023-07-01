@@ -32,7 +32,9 @@ jobs:
             mkdocs-material-
 
       - name: Install Python dependencies
-        run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-macros-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox
 
       - name: Deploy to Github Pages
         run: mkdocs gh-deploy --force
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
