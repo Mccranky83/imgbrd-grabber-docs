@@ -45,6 +45,7 @@ theme:
   grabber:
     subtitle: Booru browsing made easy
     description: Very customizable imageboard/booru browser and mass downloader, with powerful filenaming features.
+    google_site_verification: HUsU9v5lhoPPeKdafhViSRi1NofQwzQrRwLN1nEzsA8
 
 extra:
   generator: false
