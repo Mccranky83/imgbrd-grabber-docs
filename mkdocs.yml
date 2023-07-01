@@ -118,6 +118,5 @@ nav:
       - docs/portable-version.md
       - docs/configuration-files.md
       - docs/telemetry.md
-  - License: https://github.com/Bionus/imgbrd-grabber/blob/master/LICENSE
   - Issue tracker: https://github.com/Bionus/imgbrd-grabber/issues
   - Discord: https://discord.gg/pWnY5eW3rz
