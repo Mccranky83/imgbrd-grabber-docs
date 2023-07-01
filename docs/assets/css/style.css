@@ -8,6 +8,14 @@
 
 
 
+/* GLightbox */
+
+.gdesc-inner h4.gslide-title {
+	margin-bottom: 0;
+}
+
+
+
 /* Left navigation menu */
 
 @media screen and (min-width:60em) {

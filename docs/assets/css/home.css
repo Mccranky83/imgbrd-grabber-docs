@@ -144,6 +144,13 @@ article .features .feature {
 	border-bottom: 2px dotted var(--md-default-fg-color--lightest);
 }
 
+article .features .feature > p:first-child a {
+	display: none;
+}
+article .features .feature > p:first-child a:first-child {
+	display: inline;
+}
+
 article .features .feature img {
 	width: 30%;
 	float: left;
