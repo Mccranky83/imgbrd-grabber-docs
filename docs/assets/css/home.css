@@ -149,16 +149,23 @@ article .sources .source img {
 /* Features */
 
 article .features {
-	margin: -10px 0;
+	margin: -1em 0;
 }
 
 article .features .feature {
 	clear: both;
-	padding: 10px 0;
+	padding: 1em 0;
 	overflow: hidden;
 	border-bottom: 2px dotted var(--md-default-fg-color--lightest);
 }
 
+article .features .feature:last-child {
+	border-bottom: none;
+}
+
+article .features .feature > p:first-child {
+	margin: 0;
+}
 article .features .feature > p:first-child a {
 	display: none;
 }
