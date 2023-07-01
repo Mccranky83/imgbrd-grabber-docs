@@ -92,41 +92,56 @@ article h2 {
 
 /* Downloads */
 
+article .downloads {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 article .downloads .download {
-	float: left;
-	width: 25%;
+	flex-basis: 25%;
 	text-align: center;
-	overflow: hidden;
+	margin: 1em 0;
 }
 @media screen and (max-width:60em) {
 	article .downloads .download {
-		width: 50%;
+		flex-basis: 50%;
 	}
 }
 
-article .downloads .download:last-child {
-	float: none;
+article .downloads .download p {
+	margin: 0;
+}
+
+article .downloads .download img {
+	margin-bottom: 1em;
 }
 
 
 
 /* Sources */
 
+article .sources {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 article .sources .source {
-	float: left;
-	width: 20%;
+	flex-basis: 20%;
 	text-align: center;
-	overflow: hidden;
-	margin-bottom: 20px;
+	margin: 1em 0;
 }
 @media screen and (max-width:40em) {
 	article .sources .source {
-		width: 33.333%;
+		flex-basis: 33.333%;
 	}
 }
 
-article .sources .source:last-child {
-	float: none;
+article .sources .source p {
+	margin: 0;
+}
+
+article .sources .source img {
+	margin-bottom: 1em;
 }
 
 
@@ -190,18 +205,26 @@ article .features .feature h3 {
 
 /* Flags */
 
+article .flags {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 article .flags .flag {
-	float: left;
-	width: 20%;
+	flex-basis: 20%;
 	text-align: center;
-	overflow: hidden;
+	margin: 1em 0;
 }
 @media screen and (max-width:40em) {
 	article .flags .flag {
-		width: 50%;
+		flex-basis: 50%;
 	}
 }
 
-article .flags .flag:last-child {
-	float: none;
+article .flags .flag p {
+	margin: 0;
+}
+
+article .flags .flag img {
+	margin-bottom: 1em;
 }
