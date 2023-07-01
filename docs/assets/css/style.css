@@ -8,6 +8,17 @@
 
 
 
+/* Header */
+
+.md-tabs .md-icon.external svg {
+	display: inline-block;
+	height: 0.7rem;
+	width: 0.7rem;
+	padding-bottom: 5px;
+}
+
+
+
 /* GLightbox */
 
 .gdesc-inner h4.gslide-title {
