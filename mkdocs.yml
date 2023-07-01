@@ -1,5 +1,6 @@
 site_name: Imgbrd-Grabber
 repo_url: https://github.com/Bionus/imgbrd-grabber
+repo_name: Bionus/imgbrd-grabber
 copyright: This project is maintained by <a href="https://github.com/Bionus" data-label="Owner">Bionus</a>
 use_directory_urls: false
 
